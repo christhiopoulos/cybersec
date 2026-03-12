@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'nginx:stable-alpine3.23-perl'
+          default: 'ubuntu:resolute-20260108'
 
 # env:
 #   REGISTRY: ghcr.io
