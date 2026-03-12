@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'mcp/brave-search:latest'
+          default: 'ghcr.io/computing-geometry:latest'
 
 # env:
 #   REGISTRY: ghcr.io
