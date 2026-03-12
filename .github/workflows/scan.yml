@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'mcp/fetch:latest'
+          default: 'nginx:stable-alpine3.23-perl'
 
 # env:
 #   REGISTRY: ghcr.io
